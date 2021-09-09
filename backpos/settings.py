@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #SECRET_KEY = ''
 SECRET_KEY = 'av8ocxogudjo3nh8-6xt60(_q810i%!)j)f6eco4)jss9k'  
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -173,5 +173,3 @@ cloudinary.config(
 )
 
 CORS_ORIGIN_ALLOW_ALL = True
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
