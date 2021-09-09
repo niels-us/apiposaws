@@ -106,7 +106,7 @@ WSGI_APPLICATION = 'backpos.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydatabase',
+        'NAME': 'apipos',
         'USER': 'sysadmin',
         'PASSWORD': 'codigo2021',
         'HOST': '127.0.0.1',
